@@ -34,7 +34,7 @@ qualquer. Ou seja, ao se informar para método o número e sua potência,
 deverão ser apresentados o seu resultado. Por exemplo, se for 
 mencionado no programa principal a sub-rotina POTENCIA(2,3), deverá 
 ser apresentado o valor 8. 
-> Utilizar a formula x^y.
+Utilizar a formula x^y.
 
 7. Desenvolver um programa que efetue a leitura de três valores para os 
 lados de um triângulo, considerando lados como: A, B e C. 
