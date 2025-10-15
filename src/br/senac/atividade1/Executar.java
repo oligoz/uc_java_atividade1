@@ -51,6 +51,26 @@ public class Executar {
         result = caracter.VerificaCaracter(input);
         System.out.println("O resultado foi " + result);
     }
+    
+    public static void Ex5(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Valor: ");
+        float valor = scanner.nextFloat();
+        System.out.println("Taxa: ");
+        float taxa = scanner.nextFloat();
+        System.out.println("Tempo: ");
+        int tempo = scanner.nextInt();
+        CalcularPrestacao.Calcular(valor, taxa, tempo);
+    }
+    
+    public static void Ex6(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Base: ");
+        int base = scanner.nextInt();
+        System.out.println("Potencia: ");
+        int pot = scanner.nextInt();
+        Potencia.Potencia(base, pot);
+    }
 
     /**
      * @param args the command line arguments
@@ -59,7 +79,9 @@ public class Executar {
 //        Ex1();
 //        Ex2();
 //        Ex3();
-        Ex4();
+//        Ex4();
+//        Ex5();
+        Ex6();
     }
     
 }
